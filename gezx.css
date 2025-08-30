@@ -16,6 +16,7 @@ html, body {
     position:fixed;
     right: 0;
     bottom: 0;
+    width: 100vw;
     z-index: -1;
     object-fit: cover;
 }
@@ -163,6 +164,7 @@ html, body {
     font-size: 50px;
     margin: 20px;
     margin-bottom: -10px;
+    margin-top: 180px;
 }
 .banner{
     width: 100%;
@@ -513,7 +515,7 @@ top: 100px;
 .input{
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
-input:hover, .field:hover {
+.inp:hover, .field:hover {
   border-color: #888;
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
 }
@@ -559,10 +561,309 @@ input:focus, fieldset:focus {
 
 /* Hover state */
 .reg:hover {
-  background: linear-gradient(135deg, #00fff7, #1ef8ff); /* shiny blue gradient */
+  background: linear-gradient(135deg, #00ffff, #00ffff); /* shiny blue gradient */
   transform: scale(1.08);
   box-shadow: 0 0 15px rgba(0,191,255,0.7),
               0 0 30px rgba(30,144,255,0.5);
 }
 
-/* Unhover is handled by transition smoothly */
+
+
+
+#contact{
+    margin-top: 190px;
+    height: 120vh;
+}
+#contact h1{
+    font-family: Audiowide;
+    font-size: 56px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+#contact h2{
+    font-family:roboto;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#contact p{
+    font-family: share;
+    font-size: 19px;
+    margin: 10px;
+    margin-left: 70px;
+    margin-top: 1px;
+}
+#contact i{
+    font-size: 19px;
+    margin: 10px;
+    margin-left: 80px;
+    margin-bottom: -10px;
+    color: #00ffff;
+}
+.folli{
+    width: 800px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 60px;
+    gap: 20px;
+}
+.folli img{
+    position: relative;
+    width: 40px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 600px;
+    border: 2px solid #ffffff;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.folli img:hover{
+    top:-10px;
+    border-color: #00ffff; /* light blue */
+    box-shadow: 0 0 20px #00ffff, 0 0 10px #00ffff;
+}
+.input-boxx{
+    position: relative;
+    margin: 30px 0;
+    align-items: center;
+}
+.formm {
+    position: relative;
+    width: 510px;
+    margin: 0 auto;                 /* centers horizontally */
+    bottom: 530px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    left:300px;          /* centers children */
+}
+
+/* Input box */
+.input-boxx {
+    position: relative;
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.input-boxx input {
+    width: 400px;
+    height: 45px;
+    padding: 13px 50px 13px 20px;
+    background-color: #000;
+    border-radius: 8px;
+    border: 2px solid #4a4a4a;
+    outline: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.input-boxx input::placeholder {
+    color: #888;
+    font-weight: 400;
+}
+
+.input-boxx i {
+    position: absolute;
+    right: 20px;                    /* stable placement */
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #919191;
+}
+
+/* Textarea */
+.txaa {
+    width: 420px;
+    height: 100px;
+    background: #000;
+    border:none;
+    color: #fff;
+    outline: none;
+    font-family: share, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 17px;
+    resize: none;
+    margin: 15px 0;
+}
+
+/* Dropdown */
+.field2 {
+    width: 400px;
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+    color: #919191;
+    border: 2px solid #4a4a4a;
+    border-radius: 5px;
+    background: #000;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+/* Submit button */
+.reg2 {
+    outline: none;
+    width: 430px;
+    height: 45px;
+    margin: 25px 0;
+    font-family: share, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 15px;
+    background: #111;
+    border: 2px solid #4a4a4a;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.reg2:hover {
+    background: transparent;
+    border-color:#00ffe1;
+    color: #ffffff;
+}
+
+
+
+
+.logoo{
+    position: relative;
+    width: 70px;
+    height: auto;
+    bottom: 30px;
+}
+.log2{
+    cursor: pointer;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    left:40%;
+}
+.namee{
+    font-family:Arial, Helvetica, sans-serif;
+    position:relative;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    top: 20px;
+    left:45px;
+    bottom: 400px;
+    width:150px;
+    height: auto;
+    z-index: 0;
+}
+.menu{
+    width: 650px;
+    height: 70px;
+    float: left;
+    margin-left: 250px;
+}
+.fooll{
+    margin-top: 60px;
+}
+
+
+/* ===== Footer Styling ===== */
+.footer {
+  background: #000;
+  margin-top: 100px;
+  padding: 50px 80px 20px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  overflow: hidden;
+  border-top: 2px solid rgba(0,255,255,0.2);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+/* Left */
+.footer-left {
+  max-width: 300px;
+}
+.footer-logo {
+  width: 70px;
+  margin-bottom: 10px;
+}
+.footer-title {
+  font-size: 28px;
+  font-family: Audiowide;
+  margin-bottom: 5px;
+  color: #00ffff;
+}
+.footer-tagline {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Center */
+.footer-center h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #00ffff;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin: 8px 0;
+  margin-right: 20px;
+}
+.footer-links a {
+  font-weight: bold;
+  font-size: 19px;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+.footer-links a:hover {
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+/* Right */
+.footer-right h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #00ffff;
+}
+.footer-socials {
+  display: flex;
+  gap: 15px;
+}
+.footer-socials a {
+  font-size: 28px;
+  color: #fff;
+  transition: transform 0.3s, color 0.3s, text-shadow 0.3s;
+}
+.footer-socials a:hover {
+  color: #00ffff;
+  transform: scale(1.2);
+  text-shadow: 0 0 15px #00ffff;
+}
+
+/* Bottom strip */
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 15px;
+  font-size: 14px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  color: #aaa;
+}
+.footer-bottom span {
+  color: #00ffff;
+  font-weight: bold;
+}
