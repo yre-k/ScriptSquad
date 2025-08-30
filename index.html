@@ -12,8 +12,11 @@
     <video autoplay="" loop="" muted="" plays-inline="" class="geezbg">
         <source src="geezbg.mp4" type="video/mp4">
       </video>
-    <div class="main">
+    <div id="home">
+      <div class="log">
         <p class="name">GeezX</p>
+        <img src="logo3d.png" alt="logo" class="logo">
+    </div>
         <h2 class="h2">Welcome To The Future Of Tech</h2>
         <h1 class="h1">EMPOWERING YOUTH <br>IN TECH</h1>
        <div class="vl">
@@ -27,16 +30,15 @@
               <a href="#" class="jocc"></a><button class="lm">LEARN MORE</button></a>
             </div>
         </div>
-        <img src="gez.png" alt="logo" class="logo">
     </div>
 
 
-    <div class="about">
+<div id="about">
       <h1 class="abu">About GeezX</h1>
-      <hr>
+      
         <div class="banner">
-          <div class="slider" style="--quantity: 3">
-            <div class="item" style="--position: 1;">
+          <div class="slider">
+            <div class="item">
               <i class='bxr  bx-bullseye'  ></i> 
                 <h2>Our Mission</h2>
               <p>To bridgr the digital divide by providing <br>accessible, high quality tech 
@@ -63,7 +65,132 @@
           <div class="model"></div>
          </div> 
         </div>
+  </div>
+          
+
+
+  <div id="event">
+        <h2 class="eao">Evants and Opportunities</h2>
+    <div class="events-container">
+
+     <div class="wrapper">    
+       <div class="outer a">
+        <h2 class="oaas">Web Development Bootcamp</h2>
+         <div class="ev">
+             <p class="date">Starting JUNE 15, 2025</p>
+                <h2>Web Development Bootcamp</h2>
+              <p class="parr">An intensive 8-week program covering <br>HTML, CSS, JavaScript and modern <br>
+                frameworks. Build real-world projects and launch your portfolio.</p>
+                <a href=""><button class="evbtn a">Apply Now</button></a>
+              </div>
+        </div>
+     </div>
+
+     <div class="wrapper">
+      <div class="outer b">
+        <h2 class="oaas">Summer Hackathon</h2>
+          <div class="ev">
+             <p class="date">JUNE 10-12, 2025</p>
+                <h2>Summer Hackathon</h2>
+              <p class="parr">Join teams of innovators to solve real <br>community challenges through technology. 
+                48 hours of coding, collaboration, and creativity.</p>
+                <a href=""><button class="evbtn b">Register</button></a>
+              </div>
+        </div>
+     </div>
+
+     <div class="wrapper">
+        <div class="outer c">
+          <h2 class="oaas">Tech Talks</h2>
+           <div class="ev">
+             <p class="date">MONTHLY</p>
+                <h2>Tech Talks</h2>
+              <p class="parr">Monthly sessions featuring industry <br>experts sharing insites on emerging <br>
+               technologies, career paths, and the future of tech.</p>
+                <a href=""><button class="evbtn c">JOIN NEXT SESSION</button></a>
+              </div>
+        </div>
+     </div>
+
+
+     <div class="wrapper">
+      <div class="outer d">
+         <h2 class="oaas">Mentorship Program</h2>
+            <div class="ev">
+             <p class="date">ONGOING</p>
+                <h2>Mentorship Program</h2>
+              <p class="parr">Get paired with industry professionals who provide guidance, feeedback and support 
+               as you navigate your tech journey.</p>
+                <a href=""><button class="evbtn d">Apply</button></a>
+              </div>
+      </div>
+     </div>
+
+
+     <div class="wrapper">
+       <div class="outer e">
+         <h2 class="oaas">AI & Machine Learning Workshop</h2>
+             <div class="ev">
+             <p class="date">AUGUST 5, 2025</p>
+                <h2>AI & Machine Learning Workshop</h2>
+              <p class="parr">Sive into the world of artificial intelligence and machine learning with hands-on 
+                projects and expert instruction.</p>
+                <a href=""><button class="evbtn e">LEARN MORE</button></a>
+              </div>
+        </div>
+     </div>
+
+
+     <div class="wrapper">
+       <div class="outer f">
+        <h2 class="oaas">Tech Career Fair</h2>
+            <div class="ev">
+             <p class="date">SEPTEMBER 20, 2025</p>
+                <h2>Tech Career Fair</h2>
+              <p class="parr">Connect with top tech companies looking for fresh talent. Bring your portfolio and 
+                prepare to impress potential employers.</p>
+                <a href=""><button class="evbtn f">RSVP</button></a>
+              </div>  
+       </div>
+     </div> 
     </div>
- </section>
+ </div>
+  
+  
+ <div id="joinus">
+  <h1>Join GeezX</h1>
+  <p>Ready to start your tech journey? Join our community of young innovators <br>
+  and gain access to training programs , events, mentorship, and a network of <br>like-minded peers.</p>
+   <form action="#">
+    <div class="input-box">
+      <input type="text" placeholder="Full Name" required>
+      <i class='bxr  bx-user'  ></i>
+    </div>
+    <div class="input-box">
+      <input type="email" placeholder="Email Address" required>
+      <i class='bxr  bx-lock'  ></i>
+    </div>
+    <div class="input-box">
+      <input type="tel" name="phone" id="phone" placeholder="Phone Number  e.g(+251)"  pattern="[0-9+]{10,15}" required>
+     <i class='bxr  bx-phone-plus'  ></i> 
+    </div>
+  <fieldset class="field">
+    <legend>💭 Why are you interested in GeezX ?</legend>
+    <textarea class="txa" id="idea" name="idea" rows="5" cols="40"></textarea>
+  </fieldset>
+   <button class="reg">Submit Application</button>
+  </form> 
+
+</div>
+</section>
+
+
+
+<script>
+  const phone = document.getElementById("phone");
+  phone.addEventListener("input", function () {
+    this.value = this.value.replace(/[^0-9+]/g, ""); 
+  });
+</script>
 </body>
 </html>
