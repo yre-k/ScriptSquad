@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GeezX - Empowering youth in Tech</title>
-    <link rel="stylesheet" href="gezx.css" />
     <link
       href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
       rel="stylesheet"
@@ -14,6 +13,9 @@
       rel="stylesheet"
     />
     <link rel="icon" href="Images-and-videos/logogeez.png" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="gezx.css" />
   </head>
 
   <body>
@@ -30,12 +32,14 @@
     <div id="home">
       <h2 class="h2">WELCOME TO THE FUTURE OF TECH</h2>
       <h1 class="h1">EMPOWERING YOUTH <br />IN TECH</h1>
-      <p class="par">GeezX is a cutting-edge tech hub designed to equip the next generation
-          of innovators with the skills, knowledge, and opportunities they need
-          to thrive in the digital age.</p>
+      <p class="par">
+        GeezX is a cutting-edge tech hub designed to equip the next generation
+        of innovators with the skills, knowledge, and opportunities they need to
+        thrive in the digital age.
+      </p>
       <div class="join">
         <div class="jo">
-          <a href="#" class="jocc"
+          <a href="JoinUs.html" class="jocc"
             ><button class="joc">JOIN OUR COMMUNITY</button></a
           >
           <a href="#" class="jocc"><button class="lm">LEARN MORE</button></a>
@@ -43,140 +47,126 @@
       </div>
     </div>
 
-    <div id="about">
-      <h1 class="abu">About GeezX</h1>
-
-      <div class="banner">
-        <div class="slider">
-          <div class="item">
-            <i class="bxr bx-bullseye"></i>
-            <h2>Our Mission</h2>
-            <p>
-              To bridgr the digital divide by providing <br />accessible, high
-              quality tech education <br />to youth from all backgrounds,
-              <br />empowering them to become creators of <br />technology
-              rather than just consumers.
+    <div class="container-xxxl about-con row" id="about">
+      <h1>About GeezX</h1>
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card about pop-effect">
+          <div class="card-body">
+            <i class="bx-bullseye bx-md"></i>
+            <h2 class="card-title">Our Mission</h2>
+            <p class="card-text">
+              To bridgr the digital divide by providing accessible, high quality
+              tech education to youth from all backgrounds, empowering them to
+              become creators of technology rather than just consumers.
             </p>
           </div>
-          <div class="item" style="--position: 2">
-            <i class="bxr bx-eye-alt"></i>
-            <h2>Our Vision</h2>
-            <p>
-              A world where youth are equipped with <br />
-              the digital skills and mindset to solve <br />
-              complex problems, drive innovation, and <br />
-              create positive change in their <br />
-              communities through technology.
+        </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card about pop-effect">
+          <div class="card-body">
+            <i class="bx-eye-alt bx-md"></i>
+            <h2 class="card-title">Our Vision</h2>
+            <p class="card-text">
+              A world where youth are equipped with the digital skills and
+              mindset to solve complex problems, drive innovation, and create
+              positive change in their communities through technology.
             </p>
           </div>
-          <div class="item" style="--position: 3">
-            <i class="bxr bx-code"></i>
-            <h2>What We Do</h2>
-            <p>
-              We provide hands-on programming <br />
-              training, tech workshops, hackathons, <br />
-              mentorship programs, and career <br />
-              development opportunities for young <br />
-              people interested in technology.
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card about pop-effect">
+          <div class="card-body">
+            <i class="bx-code bx-md"></i>
+            <h2 class="card-title">What We Do</h2>
+            <p class="card-text">
+              We provide hands-on programming training, tech workshops,
+              hackathons, mentorship programs, and career development
+              opportunities for young people interested in technology.
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div id="event">
-      <h2 class="eao">Events and Opportunities</h2>
-      <div class="events-container">
-        <div class="wrapper">
-          <div class="outer a">
-            <h2 class="oaas">Web Development Bootcamp</h2>
-            <div class="ev">
-              <p class="date">Starting JUNE 15, 2025</p>
-              <h2>Web Development Bootcamp</h2>
-              <p class="parr">
-                An intensive 8-week program covering <br />HTML, CSS, JavaScript
-                and modern <br />
+    <div class="container-xxxl row" id="events">
+      <h1 class="h1 e">Events & Opportunities</h1>
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card events  pop-effect mb-5" >
+          <div class="card-body">
+            <p class="date">Starting JUNE 15, 2025</p>
+            <h2 class="card-title">Web Development Bootcamp</h2>
+            <p class="card-text">
+             An intensive 8-week program covering <br>HTML, CSS, JavaScript and modern <br>
                 frameworks. Build real-world projects and launch your portfolio.
-              </p>
-              <a href=""><button class="evbtn a">Apply Now</button></a>
-            </div>
+            </p>
+            <a href="#" class="btn btn-primary">Apply Now</a>
           </div>
         </div>
-
-        <div class="wrapper">
-          <div class="outer b">
-            <h2 class="oaas">Summer Hackathon</h2>
-            <div class="ev">
-              <p class="date">JUNE 10-12, 2025</p>
-              <h2>Summer Hackathon</h2>
-              <p class="parr">
-                Join teams of innovators to solve real <br />community
-                challenges through technology. 48 hours of coding,
-                collaboration, and creativity.
-              </p>
-              <a href=""><button class="evbtn b">Register</button></a>
-            </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card events  pop-effect mb-5" >
+          <div class="card-body">
+            <p class="date">JUNE 10-12, 2025</p>
+            <h2 class="card-title">Summer Hackathon</h2>
+            <p class="card-text">
+             Join teams of innovators to solve real <br>community challenges through technology. 
+                48 hours of coding, collaboration, and creativity.
+            </p>
+            <a href="#" class="btn btn-primary">Register</a>
           </div>
         </div>
-
-        <div class="wrapper">
-          <div class="outer c">
-            <h2 class="oaas">Tech Talks</h2>
-            <div class="ev">
-              <p class="date">MONTHLY</p>
-              <h2>Tech Talks</h2>
-              <p class="parr">
-                Monthly sessions featuring industry <br />experts sharing
-                insites on emerging <br />
-                technologies, career paths, and the future of tech.
-              </p>
-              <a href=""><button class="evbtn c">JOIN NEXT SESSION</button></a>
-            </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card events  pop-effect mb-5" >
+          <div class="card-body">
+            <p class="date">MONTHLY</p>
+            <h2 class="card-title">Tech Talks</h2>
+            <p class="card-text">
+             Monthly sessions featuring industry <br>experts sharing insites on emerging <br>
+               technologies, career paths, and the future of tech.
+            </p>
+            <a href="#" class="btn btn-primary">JOIN NEXT SESSION</a>
           </div>
         </div>
-
-        <div class="wrapper">
-          <div class="outer d">
-            <h2 class="oaas">Mentorship Program</h2>
-            <div class="ev">
-              <p class="date">ONGOING</p>
-              <h2>Mentorship Program</h2>
-              <p class="parr">
-                Get paired with industry professionals who provide guidance,
-                feeedback and support as you navigate your tech journey.
-              </p>
-              <a href=""><button class="evbtn d">Apply</button></a>
-            </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card events  pop-effect mb-5" >
+          <div class="card-body">
+            <p class="date">ONGOING</p>
+            <h2 class="card-title">Mentorship Program</h2>
+            <p class="card-text">
+             Get paired with industry professionals who provide guidance, feeedback and support 
+               as you navigate your tech journey.
+            </p>
+            <a href="#" class="btn btn-primary">Apply</a>
           </div>
         </div>
-
-        <div class="wrapper">
-          <div class="outer e">
-            <h2 class="oaas">AI & Machine Learning Workshop</h2>
-            <div class="ev">
-              <p class="date">AUGUST 5, 2025</p>
-              <h2>AI & Machine Learning Workshop</h2>
-              <p class="parr">
-                Sive into the world of artificial intelligence and machine
-                learning with hands-on projects and expert instruction.
-              </p>
-              <a href=""><button class="evbtn e">LEARN MORE</button></a>
-            </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card events  pop-effect mb-5" >
+          <div class="card-body">
+            <p class="date">AUGUST 5, 2025</p>
+            <h2 class="card-title">AI & Machine Learning Workshop</h2>
+            <p class="card-text">
+            Give into the world of artificial intelligence and machine learning with hands-on 
+                projects and expert instruction.
+            </p>
+            <a href="#" class="btn btn-primary">LEARN MORE</a>
           </div>
         </div>
-
-        <div class="wrapper">
-          <div class="outer f">
-            <h2 class="oaas">Tech Career Fair</h2>
-            <div class="ev">
-              <p class="date">SEPTEMBER 20, 2025</p>
-              <h2>Tech Career Fair</h2>
-              <p class="parr">
-                Connect with top tech companies looking for fresh talent. Bring
-                your portfolio and prepare to impress potential employers.
-              </p>
-              <a href=""><button class="evbtn f">RSVP</button></a>
-            </div>
+      </div>
+      <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card events  pop-effect mb-5" >
+          <div class="card-body">
+            <p class="date">SEPTEMBER 20, 2025</p>
+            <h2 class="card-title">Tech Career Fair</h2>
+            <p class="card-text">
+            Connect with top tech companies looking for fresh talent. Bring your portfolio and 
+                prepare to impress potential employers.
+            </p>
+            <a href="#" class="btn btn-primary">RSVP</a>
           </div>
         </div>
       </div>
@@ -186,48 +176,13 @@
       <h1>Join GeezX</h1>
       <p>
         Ready to start your tech journey? Join our community of young innovators
-        <br />
         and gain access to training programs , events, mentorship, and a network
-        of <br />like-minded peers.
+        of like-minded peers.
       </p>
-      <form action="#">
-        <div class="input-box">
-          <input class="inp" type="text" placeholder="Full Name" required />
-          <i class="bxr bx-user"></i>
-        </div>
-        <div class="input-box">
-          <input
-            class="inp"
-            type="email"
-            placeholder="Email Address"
-            required
-          />
-          <i class="bxr bx-envelope-open"></i>
-        </div>
-        <div class="input-box">
-          <input
-            class="inp"
-            type="tel"
-            name="phone"
-            id="phone"
-            placeholder="Phone Number  e.g(+251)"
-            pattern="[0-9+]{10,15}"
-            required
-          />
-          <i class="bxr bx-phone-plus"></i>
-        </div>
-        <fieldset class="field">
-          <legend>💭 Why are you interested in GeezX ?</legend>
-          <textarea
-            class="txa"
-            id="idea"
-            name="idea"
-            rows="5"
-            cols="40"
-          ></textarea>
-        </fieldset>
-        <button class="reg">Submit Application</button>
-      </form>
+      <a href="JoinUs.html"><button
+        class="translate-middle position-absolute start-50 hover-textlink joc"
+        >JOIN US</button
+      ></a>
     </div>
 
     <div id="contact">
@@ -267,7 +222,7 @@
           <input
             type="email"
             class="inputt"
-            placeholder="Your Email"
+            placeholder="Email address"
             required
           />
           <i class="bxr bx-envelope-open"></i>
@@ -276,17 +231,18 @@
           <input type="text" class="inputt" placeholder="Subject" required />
           <i class="bxr bx-book-content"></i>
         </div>
-        <fieldset class="field2">
-          <legend>Your Message</legend>
-          <textarea
+        <fieldset >
+        
+          <textarea class="field2"
             class="txaa"
             id="ideaa"
             name="idea"
-            rows="5"
-            cols="40"
+            rows="6"
+            cols="41"
+            placeholder="Your Message"
           ></textarea>
         </fieldset>
-        <button class="reg2">Send Message</button>
+        <button class="reg2 hover-textlink">Send Message</button>
       </form>
     </div>
     <footer>
@@ -307,7 +263,7 @@
           <ul class="footer-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#event">Events</a></li>
+            <li><a href="#events">Events</a></li>
             <li><a href="#joinus">Join Us</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -331,12 +287,5 @@
         <p>© 2025 <span>GeezX</span>. All Rights Reserved.</p>
       </div>
     </footer>
-
-    <script>
-      const phone = document.getElementById("phone");
-      phone.addEventListener("input", function () {
-        this.value = this.value.replace(/[^0-9+]/g, "");
-      });
-    </script>
   </body>
 </html>
